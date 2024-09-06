@@ -71,3 +71,44 @@ body {
 .nav-links a:hover {
   color: #60a5fa;
 }
+
+/* HERO SECTION */
+.hero {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+
+  gap: 60px;
+
+  min-height: 90vh;
+}
+
+/* Left Content */
+
+.tag {
+  color: #60a5fa;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 20px;
+}
+
+.hero-content h1 {
+  font-size: 72px;
+
+  line-height: 1.1;
+
+  margin-bottom: 25px;
+}
+
+.description {
+  color: #cbd5e1;
+
+  font-size: 18px;
+
+  line-height: 1.8;
+
+  margin-bottom: 40px;
+}
