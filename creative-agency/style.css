@@ -112,3 +112,25 @@ body {
 
   margin-bottom: 40px;
 }
+
+/* BUTTONS */
+.hero-buttons {
+  display: flex;
+
+  gap: 20px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 16px 32px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
