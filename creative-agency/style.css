@@ -164,3 +164,40 @@ body {
 
   background: rgba(255,255,255,0.08);
 }
+
+/* HERO VISUAL */
+.hero-visual {
+  display: flex;
+
+  justify-content: center;
+}
+
+.glass-card {
+  width: 320px;
+
+  padding: 40px;
+
+  border-radius: 24px;
+
+  background: rgba(255,255,255,0.08);
+
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.glass-card h3 {
+  color: #94a3b8;
+
+  margin-bottom: 20px;
+}
+
+.glass-card h1 {
+  font-size: 64px;
+
+  margin-bottom: 20px;
+
+  color: #60a5fa;
+}
