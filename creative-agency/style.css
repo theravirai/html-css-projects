@@ -134,3 +134,33 @@ body {
 
   transition: 0.3s;
 }
+
+/* Primary */
+
+.primary-btn {
+  background: #3b82f6;
+
+  color: white;
+}
+
+.primary-btn:hover {
+  transform: translateY(-4px);
+
+  background: #2563eb;
+}
+
+/* Secondary */
+
+.secondary-btn {
+  background: transparent;
+
+  color: white;
+
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.secondary-btn:hover {
+  transform: translateY(-4px);
+
+  background: rgba(255,255,255,0.08);
+}
