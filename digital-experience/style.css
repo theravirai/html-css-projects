@@ -34,3 +34,66 @@ body {
   bottom: -100px;
   right: -100px;
 }
+
+/* NAVBAR */
+.navbar {
+  width: 90%;
+  margin: 30px auto;
+
+  padding: 20px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  background: rgba(255,255,255,0.05);
+
+  backdrop-filter: blur(10px);
+
+  border-radius: 20px;
+
+  position: sticky;
+  top: 20px;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #8b5cf6;
+}
+
+.nav-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+
+  background: linear-gradient(135deg, #7c3aed, #2563eb);
+
+  color: white;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  transform: translateY(-3px);
+}
