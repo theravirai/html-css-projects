@@ -176,3 +176,33 @@ body {
 .secondary-btn:hover {
   transform: translateY(-5px);
 }
+
+/* STATS */
+.stats {
+  width: 90%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+}
+
+.stat-card {
+  padding: 40px;
+
+  border-radius: 20px;
+
+  background: rgba(255,255,255,0.05);
+
+  backdrop-filter: blur(10px);
+
+  text-align: center;
+
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.stat-card h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
