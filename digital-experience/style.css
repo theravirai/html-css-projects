@@ -311,3 +311,40 @@ body {
     rgba(0,0,0,0.9)
   );
 }
+
+/* TESTIMONIALS */
+.testimonials {
+  padding: 120px 10%;
+}
+
+.testimonial-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+  gap: 30px;
+}
+
+.testimonial-card {
+  padding: 40px;
+
+  border-radius: 20px;
+
+  background: rgba(255,255,255,0.05);
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  transition: 0.4s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+}
+
+.testimonial-card p {
+  color: #94a3b8;
+
+  margin-bottom: 30px;
+
+  line-height: 1.8;
+}
