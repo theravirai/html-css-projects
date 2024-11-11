@@ -376,3 +376,21 @@ body {
   margin-bottom: 40px;
   color: rgba(255,255,255,0.8);
 }
+
+/* FOOTER */
+.footer {
+  text-align: center;
+
+  padding: 60px 20px;
+
+  color: #94a3b8;
+}
+
+.footer-logo {
+  font-size: 32px;
+  font-weight: bold;
+
+  margin-bottom: 20px;
+
+  color: white;
+}
