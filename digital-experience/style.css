@@ -159,7 +159,7 @@ body {
 .primary-btn {
   border: none;
 
-  background: linear-gradient(135deg, #7c3aed, #2563eb);
+  background: linear-gradient(135deg, #57a77a, #2563eb);
 
   color: white;
 }
@@ -306,10 +306,7 @@ body {
 
   padding: 30px;
 
-  background: linear-gradient(
-    transparent,
-    rgba(0,0,0,0.9)
-  );
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
 }
 
 /* TESTIMONIALS */
@@ -330,9 +327,9 @@ body {
 
   border-radius: 20px;
 
-  background: rgba(255,255,255,0.05);
+  background: rgba(255, 255, 255, 0.05);
 
-  border: 1px solid rgba(255,255,255,0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 
   transition: 0.4s;
 }
@@ -360,11 +357,7 @@ body {
 
   border-radius: 30px;
 
-  background: linear-gradient(
-    135deg,
-    #7c3aed,
-    #2563eb
-  );
+  background: linear-gradient(135deg, #9a71e1, #375ba8);
 }
 
 .cta h2 {
@@ -374,7 +367,7 @@ body {
 
 .cta p {
   margin-bottom: 40px;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 /* FOOTER */
@@ -397,7 +390,6 @@ body {
 
 /* RESPONSIVE */
 @media (max-width: 992px) {
-
   .hero h1 {
     font-size: 60px;
   }
@@ -413,11 +405,9 @@ body {
   .large-card {
     min-height: 300px;
   }
-
 }
 
 @media (max-width: 768px) {
-
   .navbar {
     flex-direction: column;
     gap: 20px;
@@ -443,5 +433,4 @@ body {
   .cta h2 {
     font-size: 38px;
   }
-
 }
