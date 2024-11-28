@@ -1,79 +1,34 @@
-# HTML & CSS Projects
+# 🚀 HTML & CSS Projects
 
-A collection of modern frontend projects built using only HTML and CSS.
+Modern frontend projects built using pure HTML and CSS.
 
-This repository is focused on improving:
-- Layout skills
-- Responsive design
-- Modern UI development
-- CSS architecture
-- Real-world frontend practices
+## 🌐 Live Projects
 
-The goal is to master frontend fundamentals.
+| Project | Live Demo |
+|----------|------------|
+| Creative Agency | [Live Link](https://theravirai.github.io/html-css-projects/creative-agency/) |
+| Digital Experience | [Live Link](https://theravirai.github.io/html-css-projects/digital-experience/) |
 
 ---
 
-# Projects Included
+## ✨ Consist of:
 
-## 1. Creative Agency Landing Page
-
-Modern premium agency website featuring:
-- Glassmorphism UI
-- Responsive layouts
-- CSS Grid
+- Responsive Design
 - Flexbox
-- Gradient backgrounds
-- Hover animations
-- Modern card systems
-
-### Concepts Practiced
 - CSS Grid
-- Flexbox
-- Responsive design
-- Layout composition
-- Visual hierarchy
-- Transitions & transforms
+- Glassmorphism
+- Modern UI Design
+- Hover Animations
+- Layout Composition
 
 ---
 
-## 2. Digital Experience Website
-
-Modern landing page focused on:
-- Section-based architecture
-- Reusable UI patterns
-- Clean spacing systems
-- Responsive card layouts
-
-### Concepts Practiced
-- Responsive design
-- Typography hierarchy
-- Flexbox layouts
-- Component structuring
-
----
-
-# Technologies Used
+## 🛠️ Technologies
 
 - HTML5
 - CSS3
 
-No frameworks.
-No libraries.
+No frameworks.  
 Pure frontend fundamentals.
 
 ---
-
-# Folder Structure
-
-```text
-html-css-projects/
-│
-├── creative-agency/
-│   ├── index.html
-│   └── style.css
-│
-├── digital-experience/
-│   ├── index.html
-│   └── style.css
-│
-└── README.md
