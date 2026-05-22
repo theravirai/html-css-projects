@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Reckless;
+  src: url("./fonts/RecklessCondensedS-TRIAL-Book.woff");
+}
+
+@font-face {
+  font-family: Figtree;
+  src: url("./fonts/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2");
+}
+
+@font-face {
+  font-family: Midnight;
+  src: url("./fonts/midnight-sans-rd-12-medium-trial.otf");
+}
+
+:root {
+  --cream: #fbf7e7;
+  --paper: #fffef8;
+  --ink: #201c1a;
+  --navy: #282758;
+  --leaf: #bddd73;
+  --mint: #dff0cb;
+  --lilac: #dfb7ec;
+  --rose: #f4b3c2;
+  --sky: #add9f1;
+  --peach: #f7c18f;
+  --footer-bg: #c8d9f0;
+  --border: 1px solid var(--ink);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  min-width: 320px;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: Figtree, Arial, sans-serif;
+  line-height: 1.35;
+}
+
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button, input { font: inherit; }
+em { font-style: italic; }
+
+h1, h2, h3 {
+  font-family: Reckless, Georgia, serif;
+  font-weight: 400;
+  line-height: 0.95;
+}
