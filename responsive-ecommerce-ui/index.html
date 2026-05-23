@@ -7,10 +7,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <input class="nav-toggle" type="checkbox" id="nav-toggle" />
+
     <p class="shipping-bar">Free US shipping for orders over $75</p>
 
     <header class="site-header">
       <nav class="navbar" aria-label="Primary navigation">
+        <label class="menu-button" for="nav-toggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+        </label>
+
         <div class="nav-links nav-left">
           <a href="#">Shop &#9662;</a>
           <a href="#">Learn &#9662;</a>
@@ -31,6 +38,17 @@
           <a class="bag" href="#" aria-label="Cart">0</a>
         </div>
       </nav>
+
+      <aside class="mobile-menu" aria-label="Mobile navigation">
+        <label class="close-button" for="nav-toggle">Close</label>
+        <a href="#">Shop</a>
+        <a href="#">Learn</a>
+        <a href="#">Reviews</a>
+        <a href="#">My Account</a>
+        <a href="#">Cafe &amp; Wholesale Partners</a>
+        <a href="#">Tea Journal</a>
+        <a href="#">Rewards</a>
+      </aside>
     </header>
 
     <main>
