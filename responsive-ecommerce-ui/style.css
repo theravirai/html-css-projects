@@ -152,3 +152,14 @@ h1, h2, h3 { font-family: Reckless, Georgia, serif; font-weight: 400; line-heigh
 @media (min-width: 700px) { .product-row { grid-auto-columns: minmax(19rem, 31vw); } }
 @media (min-width: 1024px) { .product-row { grid-auto-columns: minmax(20rem, 22vw); } .product-image { min-height: 26rem; } .best-sellers { padding: 5rem 2.5rem 6rem; } }
 @media (max-width: 420px) { .product-row { grid-auto-columns: 86vw; } }
+
+/* BUTTON VARIANTS */
+.button.light { background: var(--paper); border-color: var(--ink); color: var(--ink); }
+.centered { margin-inline: auto; }
+
+/* EYEBROW */
+.eyebrow {
+  display: block; margin-bottom: 0.5rem;
+  font-family: Midnight, Figtree, sans-serif;
+  font-size: 1rem; text-transform: uppercase; letter-spacing: 0.08em;
+}
