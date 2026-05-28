@@ -163,3 +163,22 @@ h1, h2, h3 { font-family: Reckless, Georgia, serif; font-weight: 400; line-heigh
   font-family: Midnight, Figtree, sans-serif;
   font-size: 1rem; text-transform: uppercase; letter-spacing: 0.08em;
 }
+
+/* DISCOVER */
+.discover { padding: 5rem 1.5rem; background: var(--cream); border-top: var(--border); border-bottom: var(--border); }
+.discover-inner { max-width: 680px; margin: 0 auto; display: grid; gap: 1.5rem; text-align: center; }
+.discover-kicker {
+  display: inline-block; padding: 0.25rem 1.1rem; background: #e8392b;
+  color: white; border-radius: 999px; font-family: Midnight, Figtree, sans-serif;
+  font-size: 1.4rem; text-transform: uppercase; letter-spacing: 0.03em;
+  width: fit-content; margin: 0 auto;
+}
+.discover-inner h2 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.05; max-width: 20ch; margin: 0 auto; }
+.search-box div { display: flex; overflow: hidden; border: var(--border); border-radius: 0.4rem; background: white; }
+.search-box input { min-width: 0; flex: 1; border: 0; background: transparent; padding: 0.85rem 1rem; color: var(--ink); }
+.search-box button { border: 0; border-left: var(--border); background: var(--leaf); padding: 0 1.2rem; cursor: pointer; font-weight: 800; }
+.vibes-label { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(32,28,26,.6); font-family: Midnight, Figtree, sans-serif; }
+.vibes { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; }
+.vibes a { padding: 0.3rem 0.85rem; border: var(--border); border-radius: 999px; font-size: 0.95rem; transition: background 0.15s, color 0.15s; }
+.vibes a:hover { background: var(--ink); color: white; }
+@media (min-width: 1024px) { .discover { padding: 6rem 2rem; } }
