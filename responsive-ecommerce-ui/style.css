@@ -182,3 +182,28 @@ h1, h2, h3 { font-family: Reckless, Georgia, serif; font-weight: 400; line-heigh
 .vibes a { padding: 0.3rem 0.85rem; border: var(--border); border-radius: 999px; font-size: 0.95rem; transition: background 0.15s, color 0.15s; }
 .vibes a:hover { background: var(--ink); color: white; }
 @media (min-width: 1024px) { .discover { padding: 6rem 2rem; } }
+
+/* ORIGINS */
+.origins {
+  position: relative; min-height: 70vh; display: flex;
+  align-items: center; justify-content: center; overflow: hidden;
+  background-image:
+    linear-gradient(rgba(20,15,12,0.35), rgba(20,15,12,0.35)),
+    url("https://www.twoleavestea.com/cdn/shop/files/adam-vradenburg-_gu7E90QChU-unsplash_1_1.webp?v=1771592855&width=2560");
+  background-size: cover; background-position: center; border-bottom: var(--border);
+}
+.origins-inner {
+  position: relative; z-index: 2; display: grid; place-items: center;
+  gap: 1.5rem; padding: 4rem 1.5rem; text-align: center; color: white;
+  max-width: 700px; width: 100%;
+}
+.origins-eyebrow { display: block; font-family: Midnight, Figtree, sans-serif; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,.8); }
+.origins-h2 { font-size: clamp(3.5rem, 10vw, 7rem); text-transform: uppercase; font-family: Midnight, Figtree, sans-serif; font-weight: 700; line-height: 0.9; color: white; }
+.origins-p { max-width: 36rem; font-size: 1.1rem; line-height: 1.55; color: rgba(255,255,255,.9); }
+.origin-badges { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; }
+.origin-badge { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
+.origin-badge img { width: 4rem; height: 4rem; object-fit: contain; background: white; border-radius: 50%; padding: 0.4rem; }
+.origin-badge span { font-size: 0.8rem; color: rgba(255,255,255,.85); text-align: center; max-width: 7rem; }
+.origins-btn { background: white; color: var(--ink); border-color: white; min-height: 2.75rem; padding: 0.65rem 2rem; }
+.origins-btn:hover { background: var(--cream); }
+@media (min-width: 1024px) { .origins { min-height: 80vh; } .origins-h2 { font-size: clamp(5rem, 9vw, 9rem); } }
