@@ -197,7 +197,6 @@ h1, h2, h3 {
   padding: 2rem 1rem;
   border-bottom: var(--border);
   background-image:
-    linear-gradient(to top, rgba(20,15,12,0.6), rgba(20,15,12,0.05)),
     url("https://www.twoleavestea.com/cdn/shop/files/AlpineBerry_mobile.webp?v=1774284087&width=900");
   background-position: center;
   background-size: cover;
@@ -1108,7 +1107,6 @@ h1, h2, h3 {
     min-height: calc(100svh - 4.5rem);
     padding: 3rem 3rem;
     background-image:
-      linear-gradient(to top, rgba(20,15,12,0.55), rgba(20,15,12,0.04)),
       url("https://www.twoleavestea.com/cdn/shop/files/AlpineBerry.webp?v=1774284236&width=2700.0");
   }
   .hero-copy {
